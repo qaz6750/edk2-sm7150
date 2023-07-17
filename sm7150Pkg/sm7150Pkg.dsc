@@ -133,8 +133,8 @@
   gEfiMdeModulePkgTokenSpaceGuid.PcdEmuVariableNvModeEnable|TRUE
 
   gsm7150PkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0x9c000000
-  gsm7150PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080
-  gsm7150PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2400
+  gsm7150PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1440
+  gsm7150PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|2880
 
   gEfiMdeModulePkgTokenSpaceGuid.PcdAcpiExposedTableVersions|0x20
 
@@ -240,7 +240,7 @@
   MdeModulePkg/Universal/Acpi/AcpiTableDxe/AcpiTableDxe.inf
   MdeModulePkg/Universal/Acpi/AcpiPlatformDxe/AcpiPlatformDxe.inf
   MdeModulePkg/Universal/Acpi/BootGraphicsResourceTableDxe/BootGraphicsResourceTableDxe.inf
-  sm7150Pkg/AcpiTables/AcpiTables.inf
+  #sm7150Pkg/AcpiTables/AcpiTables.inf
 
   #
   # SMBIOS Support

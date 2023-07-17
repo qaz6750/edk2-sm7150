@@ -1,3 +1,3 @@
-export PACKAGES_PATH=$PWD/../edk2:$PWD
+export PACKAGES_PATH=$PWD/Common/edk2:$PWD
 export WORKSPACE=$PWD/workspace
-. ../edk2/edksetup.sh
+. Common/edk2/edksetup.sh

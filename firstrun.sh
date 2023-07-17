@@ -5,5 +5,5 @@
 set -e
 mkdir -p workspace
 . build_common.sh
-make -C ../edk2/BaseTools
+make -C Common/edk2/BaseTools
 

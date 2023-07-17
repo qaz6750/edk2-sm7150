@@ -7,9 +7,9 @@
   SUPPORTED_ARCHITECTURES        = AARCH64
   BUILD_TARGETS                  = DEBUG|RELEASE
   SKUID_IDENTIFIER               = DEFAULT
-  FLASH_DEFINITION               = sm7150pkg/sm7150pkg.fdf
+  FLASH_DEFINITION               = sm7150Pkg/sm7150Pkg.fdf
 
-!include sm7150pkg/sm7150pkg.dsc
+!include sm7150Pkg/sm7150Pkg.dsc
 
 [PcdsFixedAtBuild.common]
   # System Memory (6GB)

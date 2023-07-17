@@ -157,12 +157,6 @@ READ_LOCK_STATUS   = TRUE
       SECTION PE32 = sm7150Pkg/Binary/HALIOMMU/HALIOMMU.efi
       SECTION UI = "HALIOMMU"
     }
-    
-    FILE DRIVER = 9C1EB71F-DD6C-4ED5-9F6A-5CC0CA789F16 {
-      SECTION DXE_DEPEX = sm7150Pkg/Binary/ShmBridgeDxe/ShmBridgeDxe.depex
-      SECTION PE32 = sm7150Pkg/Binary/ShmBridgeDxe/ShmBridgeDxe.efi
-      SECTION UI = "ShmBridgeDxe"
-    }
 
     FILE DRIVER = E43128A8-8692-42B6-8AFA-676158578D18 {
       SECTION DXE_DEPEX = sm7150Pkg/Binary/ULogDxe/ULogDxe.depex
@@ -456,18 +450,13 @@ READ_LOCK_STATUS   = TRUE
     SECTION PE32 = sm7150Pkg/Binary/PdcDxe/PdcDxe.efi
     SECTION UI = "PdcDxe"
   }
+  
   FILE DRIVER = 4DB5DEA6-5302-4D1A-8A82-677A683B0D29 {
     SECTION DXE_DEPEX = sm7150Pkg/Binary/ClockDxe/ClockDxe.depex
     SECTION PE32 = sm7150Pkg/Binary/ClockDxe/ClockDxe.efi
     SECTION UI = "ClockDxe"
   }
 
-  FILE DRIVER = 9C1EB71F-DD6C-4ED5-9F6A-5CC0CA789F16 {
-    SECTION DXE_DEPEX = sm7150Pkg/Binary/ShmBridgeDxe/ShmBridgeDxe.depex
-    SECTION PE32 = sm7150Pkg/Binary/ShmBridgeDxe/ShmBridgeDxe.efi
-    SECTION UI = "ShmBridgeDxe"
-  }
-  
   FILE DRIVER = 8681CC5A-0DF6-441E-B4B8-E915C538F067 {
     SECTION DXE_DEPEX = sm7150Pkg/Binary/DALTLMM/DALTLMM.depex
     SECTION PE32 = sm7150Pkg/Binary/DALTLMM/DALTLMM.efi
