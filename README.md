@@ -1,16 +1,6 @@
-EDK2 for Samsung Galaxy A72.
+EDK2 for SM7150.
 
 Based on zhuowei's commits for Pixel3XL - https://github.com/Pixel3Dev/edk2-pixel3
-
-## Status
-Boot Windows PE: Boots with clean boot.wim(not 20h2pe_new that has sdm845 drivers)
-
-[winpe_desktop_NODRIVERS.zip](https://drive.google.com/drive/folders/1-k4LwTuVw48e3Es_CIKPNf68CA9HXYRb?usp=sharing)
-
-Requires drivers from Snapdragon 7C(sc7180) to make usb, etc to work.
-
-## Bugs
-UFS detected in Windows but partitions cannot be mounted. (Windows doesn't like samsung's gpt tables...)
 
 ## WARNING
 
@@ -27,23 +17,15 @@ Ubuntu 18.04 arm64 (android chroot)
 
 Setup
 ```
-git clone https://github.com/map220v/edk2-a72q
+git clone https://github.com/qaz6750/edk2-sm7150
 git clone https://github.com/tianocore/edk2.git --recursive --depth 1
 sudo apt install build-essential uuid-dev iasl git nasm python3-distutils gcc-aarch64-linux-gnu abootimg
-cd edk2-a72q
+cd edk2-sm7150
 ./firstrun.sh
 ```
 Build
 ```
 ./build.sh
-```
-Or this for 8Gb RAM model
-```
-./build_8G.sh
-```
-Flash
-```
-heimdall flash --BOOT boot-a72q.img
 ```
 
 # Credits
