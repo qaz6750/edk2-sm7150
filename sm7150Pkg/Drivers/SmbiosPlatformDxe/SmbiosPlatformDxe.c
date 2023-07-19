@@ -27,7 +27,7 @@
 #include <Protocol/Smbios.h>
 
 #define TYPE0_STRINGS                                    \
-  "Renegade Project / ARM LTD\0" /* Vendor */      \
+  "EDK2-SM7150 / ARM LTD\0" /* Vendor */      \
   "EDK II\0"                           /* BiosVersion */ \
   __DATE__"\0"                         /* BiosReleaseDate */
 
